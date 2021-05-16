@@ -1,5 +1,5 @@
 
-// Create a function that will find the nth Fibonacci number using recursion
+//4. Create a function that will find the nth Fibonacci number using recursion
 
 function findFibonacci(n) {
     //TODO: write code

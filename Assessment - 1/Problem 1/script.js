@@ -1,5 +1,5 @@
 
-// Create a function that receives an array of numbers and returns an array containing only the positive numbers
+//1. Create a function that receives an array of numbers and returns an array containing only the positive numbers
 
 function getPositives(numbersArray) {
     //TODO::
@@ -9,8 +9,9 @@ function getPositives(numbersArray) {
             num.push(numbersArray[i]);
         }
     }
-    console.log(num);
+    // console.log(num);
 }
-getPositives([1, -3, -5, 10, 20, -30, -40]);
+var re = getPositives([1, -3, -5, 10, 20, -30, -40]);
 
 
+console.log(re);

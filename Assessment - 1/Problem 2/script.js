@@ -1,5 +1,5 @@
 
-// Create a function that receives an array of numbers and returns an array containing only the negative numbers
+//2. Create a function that receives an array of numbers and returns an array containing only the negative numbers
 
 function getNegatives(numbersArray) {
     //TODO::
