@@ -1,12 +1,12 @@
 // 6. Calculate the sum of numbers in an array of numbers
     function sumArray(ar)
     {
-      var a=0;
-        for(var i in ar)
+      var num=0;
+        for(let i = 0; i < ar.length; i++)
         {
-          a+=ar[i];
+          num+=ar[i];
         }
-        return a;
+        return num;
     }
 var ar = [2, 3, -1, 5];
 var sum = sumArray(ar);
